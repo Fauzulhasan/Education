@@ -1,0 +1,444 @@
+
+/*font-family: 'Dosis', sans-serif;*/
+/*font-family: 'Lato', sans-serif;*/
+body{
+    background-image: url(../images/background.png);
+}
+/*header start*/
+header{
+    background-color: #ffd338;
+}
+.custom_nav{}
+
+.custom_nav ul li a{
+    color: white !important;
+    padding: 0 20px !important;
+    border-radius: 15px;
+}
+.custom_nav ul li a:hover{
+    background-color: #f05c5c;
+}
+.custom_icon{
+    padding: 10px;
+    background: transparent;
+    color: white;
+}
+.custom_icon2{
+    padding: 10px;
+    color: white;
+}
+.custom_secondary{
+    border: none;
+    background: transparent !important;
+}
+..custom_secondary:hover{
+   background-color: #ffd338 !important;
+   
+}
+/*header end*/
+/*.banner start*/
+.banner{
+    background-image: url(../images/cloud.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+/*    background-position: center;*/
+    min-height: 530px;
+}
+.banner_text{
+        margin: 150px 0 0 0
+}
+.banner_text h1{
+    font-family: 'Dosis', sans-serif;
+    color: #707070;
+    font-size: 50px;
+}
+.banner_text h4{
+    color: #5BD1FF;
+    font-family: 'Lato', sans-serif;
+    font-size: 40px;
+}
+.banner_arrow{
+    padding-top: 192px;
+}
+/*.banner end*/
+/*desiration start*/
+.desiration{
+    padding: 50px 0;
+}
+.common_title{
+    padding: 50px 0;
+}
+.common_title h1{
+    font-family: 'Dosis', sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+}
+.common_title hr{
+    border: 3px dashed white;
+    width: 230px;
+}
+.kid{
+   
+}
+.kid h1{
+    font-weight: bold;
+    font-size: 30px;
+    font-family: 'Dosis', sans-serif;
+}
+.kid hr{
+    width: 170px;
+    margin-left: 0;
+}
+kid p{
+    font-size: 10px;
+}
+.discovery{
+    
+}
+.education{}
+.education img{
+    border-radius: 10px;
+}
+/*desiration end*/
+/*info start*/
+.info{
+    background-image: url(../images/section-1.jpg);
+}
+.info_image{
+    padding-bottom: 30px;
+}
+.info_image ul li img{
+    padding: 10px 52px;
+}
+.info_image ul li p{
+     font-weight: bold;
+    color: white;
+    font-size: 20px;
+}
+/*info end*/
+
+/*CARD START*/
+.card_body{
+    padding: 50px 0;
+}
+.card_header{
+    
+}
+.card_header span{
+    color: #fff;
+}
+.card_h1{
+    padding: 15px 0;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+}
+.color{
+     padding: 15px 0;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    color: #37C5FF;
+}
+.custom_header{
+    background-color: #1EC0FF;
+    border-radius: 10px 10px 0 0;
+    padding: 5px 0;
+}
+.custom_header i{
+    padding-right: 10px !important;
+}
+.custom_header2{
+    background-color: #55D47D;
+    border-radius: 10px 10px 0 0;
+    padding: 5px 0;
+}
+.custom_header2 i{
+    padding-right: 10px !important;
+}
+.custom_header3{
+    background-color: #F05C5C;
+    border-radius: 10px 10px 0 0;
+    padding: 5px 0;
+}
+.custom_header3 i{
+    padding-right: 10px !important;
+}
+.custom_header4{
+    background-color: #FFD338;
+    border-radius: 10px 10px 0 0;
+    padding: 5px 0;
+}
+.custom_header4 i{
+    padding-right: 10px !important;
+}
+.card {
+    font-size: 1em;
+    overflow: hidden;
+    padding: 0;
+    border: none;
+    border-radius: .28571429rem;
+    box-shadow: 0 1px 3px 0 #d4d4d5, 0 0 0 1px #d4d4d5;
+}
+
+.card-block {
+    font-size: 1em;
+    position: relative;
+    margin: 0;
+    padding: 1em;
+    border: none;
+    border-top: 1px solid rgba(34, 36, 38, .1);
+    box-shadow: none;
+}
+
+.card-img-top {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.profile {
+   position: absolute;
+    top: -20px;
+    right: 10px;
+    display: inline-block;
+    overflow: hidden;
+    box-sizing: border-box;
+    width: 40px;
+    height: 40px;
+    margin: 0;
+    border: 1px solid #fff;
+    border-radius: 50%;
+}
+
+
+.profile-inline {
+    position: relative;
+    top: 0;
+    display: inline-block;
+}
+.card_text{
+     font-size: 14px;
+    text-align: center;
+    color: #a0a0a0;
+    font-weight: 300;
+    font-family: 'Lato', sans-serif;
+    margin-bottom: 0px !important;
+}
+.card_footer{
+    padding: 10px 10px;
+}
+.block_level_button {
+    margin-top: 40px;
+    border-radius: 25px;
+    background-color: #56D47E;
+    color: white;
+}
+/*CARD END*/
+
+/*gallery start*/
+
+.gallery{
+    background-image: url(../images/section-2.jpg);
+    
+}
+.gallery_image{
+    margin: 15px 0;
+    
+}
+.gallery_image img{
+    border-radius: 10px;
+}
+.view_more{
+    padding: 70px 0;
+}
+/*gallery end*/
+
+/*teachers info start*/
+.teachers{
+    padding: 40px 0;
+}
+.teacher_text{
+    padding-top: 50px;
+}
+.teacher_text1{
+    color: #1ec0ff;
+    font-family: 'Lato', sans-serif;
+}
+.teacher_text2{
+    color: #1ec0ff;
+    
+    font-family: 'Lato', sans-serif;
+}
+.teachers_image{
+    padding: 20px 0;
+}
+.teachers_image img{
+    border-radius: 20px;
+}
+.teachers_info{
+    padding: 30px 0;
+}
+.teachers_info img{
+    padding: 10px 0;
+}
+.teachers_info h6{}
+.teachers_info p{
+    font-size: 15px;
+}
+.info1{
+    color: #1ec0ff;
+}
+.info2{
+     color: #7fdb9c;
+}
+.info3{
+     color: #f05c5c;
+}
+.info4{
+     color: #ffd338;
+}
+/*teachers info end*/
+
+/*activities start*/
+.activities{
+    background-image: url(../images/landscape-meadow-field-mountains-66874.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.activities_wrapper{}
+.activities_wrapper h1{
+    font-family: 'Dosis', sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    color: greenyellow;
+    padding: 10px 0;
+}
+.activities_wrapper hr{
+    border: 3px dashed white;
+    width: 170px;
+    margin: 0 auto;
+}
+.activities_info{
+    padding: 30px 0px;
+}
+.activities_info img{
+    padding: 40px 20px;
+}
+/*activities end*/
+
+/*curriculum start*/
+.curriculum{
+    padding: 50px 0;
+}
+.timeline{
+    
+}
+.timeline_wrapper{
+    padding-top: 20px;
+}
+.timeline h1{
+    font-family: 'Dosis', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+}
+.timeline hr{
+     border: 3px dashed white;
+    width: 230px;
+    margin-left: 0;
+}
+.event{
+    padding: 15px 0;
+}
+.event2{
+    padding-top: 35px;
+}
+.event2 p{
+    color: #1ec0ff;
+}
+.text_box{
+    color: black !important;
+}
+.text_box2{
+    color: #fb9130 !important;
+}
+.news_img img{
+    padding: 30px 0;
+    border-radius: 10px;
+}
+.news{
+    padding: 30px 0;
+}
+.news h1{
+    font-size: 20px;
+    font-family: 'Dosis', sans-serif;
+    font-weight: bold;
+}
+.news hr{
+    border: 2px dotted #1ec0ff;
+}
+.news p{
+    padding: 5px 0;
+    font-family: 'Lato', sans-serif;
+    font-size: 12px;
+}
+/*curriculum end*/
+
+/*social start*/
+.social{
+  background-image: url(../images/cloud-bg-2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 500px;
+    padding-top: 180px;
+}
+.little{}
+.little h4{
+    font-family: 'Lato', sans-serif;
+    font-size: 10px !important;
+}
+.color{
+    color: #1ec0ff;
+}
+.little_two{}
+.little_two h2{
+    color: orange;
+    border-bottom: 2px dotted #ffc852;
+    padding: 15px 0;
+}
+.little_two hr{
+    
+}
+.little_two_one{
+    padding: 5px;
+}
+.little_three h2{
+    color: #56d47e;
+    border-bottom: 2px dotted #56d47e;
+    padding: 15px 0;
+}
+.little_four h2{
+    font-size: 25px;
+    color: #f05c5c;
+    border-bottom: 2px dotted #f05c5c;
+    padding: 20px 0;
+    
+}
+.little_four p{
+    font-size: 12px;
+}
+/*social end*/
+/*footer start*/
+footer{
+    background-color: #ffd338;
+}
+.footer_nav{
+    color: white;
+    font-size: 15px;
+    padding: 10px 0;
+}
+.footer_text{
+    color: white;
+    font-size: 10px;
+    padding: 10px 0; 
+}
